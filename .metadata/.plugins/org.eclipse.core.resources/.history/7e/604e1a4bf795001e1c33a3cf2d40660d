@@ -1,0 +1,18 @@
+package pet_store.entity;
+
+import jakarta.persistence.Entity;
+import lombok.Data;
+
+@Entity
+@Data
+
+public class PetStore {
+	private long PetStoreId;
+	private String PetStoreName;
+	private String PetStoreAdress;
+	private String PetStoreCity;
+	private String PetStoreState;
+	private String PetStoreZip;
+	private String PetStorePhone;
+
+}

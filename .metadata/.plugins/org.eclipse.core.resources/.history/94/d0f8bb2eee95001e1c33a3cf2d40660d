@@ -1,0 +1,10 @@
+package pet_store.entity;
+
+import lombok.Data;
+
+@Entity
+@Data
+
+public class PetStore {
+
+}

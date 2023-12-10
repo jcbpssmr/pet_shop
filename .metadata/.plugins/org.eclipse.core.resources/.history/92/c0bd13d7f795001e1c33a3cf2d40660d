@@ -1,0 +1,15 @@
+package pet_store.entity;
+
+import jakarta.persistence.Entity;
+import lombok.Data;
+
+@Entity
+@Data
+
+public class Customer {
+	private long customerId;
+	private String customerFistName;
+	private String customerLastName;
+	private String customerEmail;
+
+}
