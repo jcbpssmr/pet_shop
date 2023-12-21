@@ -1,0 +1,34 @@
+package pet.store.controller.model;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import pet.store.entity.Customer;
+
+@Data
+@NoArgsConstructor
+public class PetStoreData {
+	
+	private long PetStoreId;
+	private String petStoreName;
+	private String petStoreAdress;
+	private String petStoreCity;
+	private String petStoreState;
+	private String petStoreZip;
+	private String petStorePhone;
+	
+	@Data
+	@NoArgsConstructor
+	public static class PetStoreCustomer{
+		private long customerId;
+		private String customerFistName;
+		private String customerLastName;
+		private String customerEmail;
+		
+		public PetStoreCustomer(Customer customer) {
+			customerId = customer.getCustomerId();
+			customerFistName = customer.getCustomerFistName();
+			customerLastName = customer.getCustomerLastName();
+			customerEmail = customer.getCustomerEmail();
+		}
+	}
+}

@@ -1,0 +1,7 @@
+package pet.store.dao;
+
+import org.springframework.data.jpa.repository.JpaContext;
+
+public interface PetStoreDao extends JpaContext {
+
+}

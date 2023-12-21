@@ -22,9 +22,9 @@ import lombok.ToString;
 public class PetStore {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long PetStoreId;
+	private Long PetStoreId;
 	private String petStoreName;
-	private String petStoreAdress;
+	private String petStoreAddress;
 	private String petStoreCity;
 	private String petStoreState;
 	private String petStoreZip;

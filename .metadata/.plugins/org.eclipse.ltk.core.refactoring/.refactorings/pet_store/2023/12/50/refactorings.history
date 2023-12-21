@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;petStoreAdress&apos; in &apos;pet.store.entity.PetStore&apos; to &apos;petStoreAddress&apos;&#x0A;- Original project: &apos;pet_store&apos;&#x0A;- Original element: &apos;pet.store.entity.PetStore.petStoreAdress&apos;&#x0A;- Renamed element: &apos;pet.store.entity.PetStore.petStoreAddress&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;petStoreAdress&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;pet.store.entity{PetStore.java[PetStore^petStoreAdress" name="petStoreAddress" references="true" setter="false" stamp="1702761533537" textual="false" version="1.0"/>
+</session>

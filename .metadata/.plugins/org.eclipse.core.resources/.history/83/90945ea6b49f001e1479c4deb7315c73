@@ -1,0 +1,17 @@
+{
+"petStoreName" : "Jacob's Pet Shop",
+"petStoreAddress" : "123 this is a street",
+"petStoreCity" : "Mississippi",
+"petStoreState" : "Texas",
+"petStoreZip" : "12345",
+"petStorePhone" : "123456789"
+}
+
+
+
+{
+	"employeeFirstName" : "Jacob"
+	"employeeLastName" : "Passmore"
+	"employeePhone" : "2083600828"
+	"employeeJobTitle" : "Best Employee Ever"
+}

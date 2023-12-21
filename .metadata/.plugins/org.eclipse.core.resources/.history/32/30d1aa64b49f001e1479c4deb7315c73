@@ -1,0 +1,8 @@
+{
+"petStoreName" : "Jacob's Pet Shop",
+"petStoreAddress" : "123 this is a street",
+"petStoreCity" : "Mississippi",
+"petStoreState" : "Texas",
+"petStoreZip" : "12345",
+"petStorePhone" : "123456789"
+}
